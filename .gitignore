@@ -103,12 +103,12 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.house
 env/
-venv/
+house/
 ENV/
 env.bak/
-venv.bak/
+house.bak/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Additional directories
+.vscode
