@@ -16,17 +16,17 @@
 `` cd app `` <br/>
 `` uvicorn api:app --reload `` <br/>
 
-API calls can be made using following structure:
-POST http://127.0.0.1:8000
+API calls can be made using following structure: <br/>
+POST http://127.0.0.1:8000 <br/>
 body: <br/>
 
-``{ 
-    "TransactionDate":"2020.12",
-    "HouseAge":9.0,
-    "DistanceToStation":467.6447748,
-    "NumberOfPubs":10.0,
-    "PostCode":"5222.0"
-}``
+``  { 
+        "TransactionDate":"2020.12",
+        "HouseAge":9.0,
+        "DistanceToStation":467.6447748,
+        "NumberOfPubs":10.0,
+        "PostCode":"5222.0"
+     }``
 
 The API will return a prediction:  <br/>
 ``{"prediction": 680871}``
